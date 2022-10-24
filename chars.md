@@ -36,6 +36,7 @@
 - : Else statement
   - ?: Else-if statement 
 - ~ Returns approximation of number
+  - ~* Returns box 
 - ! Negation
   - !! Factory 
 - @ Comment
