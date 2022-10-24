@@ -1,0 +1,72 @@
+# Chars
+- ( Open parentheses
+- ) Close parentheses
+- " Quote mark
+- 0 to 9 Numbers
+- ? Question mark
+- : Colon
+- ~ Tilde
+- ! Exclemation mark
+- @ At sign
+- \# Hashtag
+- $ Dollar
+- % Percent
+- ^ Ceret
+- & Ampersand
+- \* Star
+- \- Minus sign
+- \+ Plus sign
+- = Equal sign
+- < Less-than sign
+- \> More-than sign
+- \[ Open Square bracker
+- \] Close Square bracker
+- | Vertical bar
+- \\ Slash
+- . Dot
+- , Comma
+
+## Usage
+
+- ( Open box
+- ) Close box
+- " String creation
+- 0 to 9 Numbers
+- ? If statement
+- : Else statement
+  - ?: Else-if statement 
+- ~ Returns approximation of number
+- ! Negation
+  - !! Factory 
+- @ Memory adress
+  - @$ Constant variable 
+- \# Importing libraries
+  - \## Exporting variable
+- $ Variable creation
+- % Mod
+  - %% Percentage of number from another number
+- ^ Bitwise XOR
+  - ^^ Log operator
+- & Bitwise AND
+  - && Binary AND 
+- \* Multiplication
+  - ** Power
+- \- Minus operator
+- \+ Add operator
+- = Equal sign
+  - == Equals 
+- < Less-than operator
+  - << Print 
+  - <= Equal or less 
+- \> More-than sign
+  - \>\> Input
+  - \>= Equals or more 
+- \[ Open list
+- \] Close list
+- | Bitwise OR
+  - || Binary OR 
+- \\ Division
+  - \\\\ Sqrt 
+- . Float number
+  - .. Open list 
+- , New value in list
