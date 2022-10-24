@@ -38,8 +38,8 @@
 - ~ Returns approximation of number
 - ! Negation
   - !! Factory 
-- @ Memory adress
-  - @$ Constant variable 
+- @ Comment
+  - &@ Constant variable 
 - \# Importing libraries
   - \## Exporting variable
 - $ Variable creation
