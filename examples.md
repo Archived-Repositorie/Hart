@@ -37,7 +37,7 @@
 lib.hr
 ```
 (=> $i $@a $@b (+ $a $b)) @ Creates function i
-(## $i) #Exports it
+(## $i) @ Exports it
 ```
 main.hr
 ```
