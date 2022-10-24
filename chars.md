@@ -54,8 +54,9 @@
   - ** Power
 - \- Minus operator
 - \+ Add operator
-- = Equal sign
+- = Create/modify variable
   - == Equals 
+  - => Function
 - < Less-than operator
   - << Print 
   - <= Equal or less 
