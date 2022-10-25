@@ -24,23 +24,23 @@
 (= $i 1)
 (? ($i != 10) (
   (= $i (+ $i 1))
-  (~*)
+  (~* 2)
 ))
 ```
 ### List
 ```
 (# "build/arrays") # Imports arrays lib 
-(= $list [1,2,3])
+(= $list ([] 1 2 3 4))
 (<< (arrays.get 2 $list)) # Returns 3
 ```
 ### Modules/Functions
 lib.hr
 ```
-(=> $i $@a $@b (+ $a $b)) @ Creates function i
+(=> $i (= $a) (= $b) (+ $a $b)) @ Creates function i
 (## $i) @ Exports it
 ```
 main.hr
 ```
 (# "coolproject/lib")
-(<< lib.i 1 2) @ Prints out 3
+(<< ($lib.i 1 2)) @ Prints out 3
 ```
