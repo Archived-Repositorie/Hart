@@ -63,12 +63,10 @@
 - \> More-than sign
   - \>\> Input
   - \>= Equals or more 
-- \[ Open list
-- \] Close list
+- \[] list
 - | Bitwise OR
   - || Binary OR 
 - \\ Division
   - \\\\ Sqrt 
 - . Float number
   - .. Open list 
-- , New value in list

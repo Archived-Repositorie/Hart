@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="go build hart" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="Hart" />
+    <working_directory value="$PROJECT_DIR$/src" />
+    <go_parameters value="-ldflags=&quot;-s -w&quot;" />
+    <kind value="DIRECTORY" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$" />
+    <method v="2" />
+  </configuration>
+</component>
