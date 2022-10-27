@@ -38,13 +38,8 @@ const (
 	BOOL_OR     TokenType = 0x21
 	DIVIDE      TokenType = 0x22
 	SQUARE_ROOT TokenType = 0x23
-	DOT         TokenType = 0x24
-	OPEN_LIST   TokenType = 0x25
-
 	//Literals
-	COMMENT    TokenType = 0x26
-	STRING     TokenType = 0x27
-	NUMBER     TokenType = 0x28
-	VAR        TokenType = 0x29
-	IDENTIFIER TokenType = 0x2A
+	STRING TokenType = 0x27
+	NUMBER TokenType = 0x28
+	VAR    TokenType = 0x29
 )
