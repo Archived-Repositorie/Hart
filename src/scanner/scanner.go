@@ -1,6 +1,7 @@
 package scanner
 
 import (
+	"fmt"
 	"hart/src/token"
 	"log"
 )
@@ -32,6 +33,7 @@ func scanTokens() {
 		start = char
 		scanToken()
 	}
+	fmt.Println(len(tokens))
 }
 
 func scanToken() {
