@@ -148,8 +148,7 @@ func scanToken() {
 	default:
 		if nowChar == '[' && match(']') {
 			addCleanToken(token.LIST)
-		}
-		if isDigit(nowChar) {
+		} else if isDigit(nowChar) {
 			number()
 		} else if isAlpha(peekNext()) {
 			if match('@') {
