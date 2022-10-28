@@ -29,11 +29,11 @@ func addCleanToken(tokenType token.TokenType) {
 }
 
 func scanTokens() {
-	if !isEnd() {
+	for !isEnd() {
 		start = char
 		scanToken()
 	}
-	fmt.Println(len(tokens))
+	fmt.Println(tokens)
 }
 
 func scanToken() {
