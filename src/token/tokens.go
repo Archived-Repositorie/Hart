@@ -4,9 +4,8 @@ const (
 	// Character tokens
 	OPEN_PAREN  TokenType = 0x0
 	CLOSE_PAREN TokenType = 0x1
-	IF          TokenType = 0x2
-	ELSE        TokenType = 0x3
-	ELSE_IF     TokenType = 0x4
+	SWITCH      TokenType = 0x2
+	CASE        TokenType = 0x3
 	APPROX      TokenType = 0x5
 	RETURN      TokenType = 0x6
 	NEGATION    TokenType = 0x7

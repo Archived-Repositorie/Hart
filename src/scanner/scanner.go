@@ -44,13 +44,9 @@ func scanToken() {
 	case ')':
 		addCleanToken(token.CLOSE_PAREN)
 	case '?':
-		if match(':') {
-			addCleanToken(token.ELSE_IF)
-		} else {
-			addCleanToken(token.IF)
-		}
+		addCleanToken(token.SWITCH)
 	case ':':
-		addCleanToken(token.ELSE)
+		addCleanToken(token.CASE)
 	case '~':
 		if match('*') {
 			addCleanToken(token.RETURN)
@@ -62,12 +58,6 @@ func scanToken() {
 			addCleanToken(token.FACTORY)
 		} else {
 			addCleanToken(token.NEGATION)
-		}
-	case '$':
-		if match('@') {
-			addCleanToken(token.CONST)
-		} else {
-			addCleanToken(token.VAR)
 		}
 	case '@':
 		for peek() != '\n' && !isEnd() {
@@ -150,12 +140,11 @@ func scanToken() {
 			addCleanToken(token.LIST)
 		} else if isDigit(nowChar) {
 			number()
-		} else if isAlpha(peekNext()) {
-			if match('@') {
-				variable(true)
-			} else {
-				variable(false)
+		} else if nowChar == '$' {
+			if !isAlpha(peek()) {
+				log.Fatalf("Specify variable name at %d", line)
 			}
+			variable(false)
 		} else if nowChar == ' ' || nowChar == '\r' || nowChar == '\t' {
 			// Ignore whitespace.
 		} else if nowChar == '\n' {
