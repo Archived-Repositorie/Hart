@@ -33,8 +33,9 @@
 - " String creation
 - 0 to 9 Numbers
 - ? If statement
-- : Else statement
-  - ?: Else-if statement 
+- : Switch statement
+  - ?: Case statement
+  - : Defauklt case statenebt 
 - ~ Returns approximation of number
   - ~* Returns box 
 - ! Negation
